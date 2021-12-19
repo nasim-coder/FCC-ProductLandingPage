@@ -20,7 +20,7 @@ img{
 }
 .form-container{
     text-align: center;
-    text-align:center;
+    margin: 40px;
 }
 form{
     display: inline-block;
@@ -32,4 +32,30 @@ button{
     width:5rem;
     height: 3;
 
+}
+#video{
+    text-align: center;
+}
+input{
+    height: 1.5rem;
+    font-size: 1rem;
+    outline-color:#e47e5f;
+}
+button{
+    height: 1.9rem;
+    font-size: 1rem;
+    width: fit-content;
+    background-color: #e47e5f;
+    border: none;
+}
+h1{
+    text-align: center;
+}
+
+#nav-bar{
+    background-color: #e47e5f;
+}
+body{
+    background-color: #e5ebee;
+    margin: 0;
 }
