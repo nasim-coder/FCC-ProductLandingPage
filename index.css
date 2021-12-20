@@ -45,7 +45,7 @@ button{
     height: 1.9rem;
     font-size: 1rem;
     width: fit-content;
-    background-color: #e47e5f;
+    background-color: #e25429;
     border: none;
 }
 h1{
@@ -58,4 +58,23 @@ h1{
 body{
     background-color: #e5ebee;
     margin: 0;
+    font-family: 'Teko', sans-serif;
+}
+#feature > ul>li{
+    margin: 40px;
+    margin-top: 50px;;
+}
+
+i {
+    color:#e25429;
+}
+#feature > ul{
+    margin-left: 15%;
+    margin-right: 15%;
+    list-style-type:none;
+}
+span{
+    display: block;
+    margin:15px;
+    font-size: 1.5rem;
 }
