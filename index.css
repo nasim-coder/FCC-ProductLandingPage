@@ -3,6 +3,13 @@ img{
     height: auto;
     display: inline;
 }
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+
 #nav-link{
     display: inline-block;
     margin: 10px;
