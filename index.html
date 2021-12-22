@@ -18,9 +18,9 @@
                     <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
                 </div>
                 <ul class="link">
-                    <li id="nav-link">Features</li>
-                    <li id="nav-link">How It Works</li>
-                    <li id="nav-link">Pricing</li>
+                    <li id="nav-link"><a class = "nav-link" href="#feature">Features</a></li>
+                    <li id="nav-link"><a class = "nav-link" href="#video">How It Works</a></li>
+                    <li id="nav-link"><a class = "nav-link" href="#price">Pricing</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,7 +29,7 @@
             <h1>Handcrafted, Home-made Masterpieces</h1>
             <div class="form-container">
                 <form action=" https://www.freecodecamp.com/email-submit" id="form">
-                    <input type="email" id="email" placeholder="Please enter your email"><button type="submit" id="submit" value='SUBMIT'>Contact Us</button>
+                    <input type="email" id="email" name = "email" placeholder="Please enter your email"><input type="submit" id="submit" value='Contact Us'></input>
                 </form>
             </div>
         </section>
@@ -40,13 +40,13 @@
                     <li><i class="fas fa-battery-full fa-2x">Quality Assurance </i> <span>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</span></li>
                 </ul>
             </div>
-            <div id="video">
-                <iframe width="600" height="345" src="https://www.youtube.com/embed/y8Yv4pnO7qc?autoplay=0&mute=0">
+            <div class="video">
+                <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc?autoplay=0&mute=0">
                   your browser does not support video  
                 </iframe>                
             </div>
 
-            <div class="price-container">
+            <div class="price-container" id="price">
                 <div class="column">
                         <h3>TENOR TROMBONE</h3>
                         <h2>$600</h2>

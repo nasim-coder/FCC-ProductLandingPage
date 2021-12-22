@@ -4,12 +4,15 @@ img{
     display: inline;
 }
 header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
-    }
-
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
 #nav-link{
     display: inline-block;
     margin: 10px;
@@ -25,6 +28,7 @@ header {
     list-style-type: none;
     margin-block-start: 0;
 }
+
 .form-container{
     text-align: center;
     margin: 40px;
@@ -36,7 +40,7 @@ form{
     text-align: center;
 }
 
-#video{
+.video{
     text-align: center;
 }
 input{
@@ -45,7 +49,7 @@ input{
     outline-color:#e25429;
     padding-left: 5px;
 }
-button{
+#submit{
     height: 1.9rem;
     font-size: 1rem;
     width: fit-content;
@@ -53,6 +57,7 @@ button{
     border: none;
     cursor: pointer;
 }
+
 h1{
     text-align: center;
 }
@@ -105,6 +110,8 @@ footer{
 }
 iframe{
     margin-top: 5rem;
+    width:600px;
+    height:345px;
 }
 .price-container{
     display: flex;
@@ -134,4 +141,43 @@ p{
    height: 2.3rem;
    font-size: 1.1rem;
    width: 6rem;
+   cursor: pointer;
+   background-color: #e25429;
+   border: none;
 }
+
+@media screen and (max-width: 600px) {
+    img{
+        width: 100%;
+        height: auto;
+        display: inline;
+    }
+    .link{
+        float: none;
+        text-align: center;
+    }
+    #feature{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    iframe{
+        margin-top: 2rem;
+        width:400px;
+        height:250px;
+    }
+    .price-container{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3rem;
+    }
+    .select-btn{
+        height: 2.3rem;
+        font-size: 1.1rem;
+        width: 6rem;
+        cursor: pointer;
+        background-color: #e25429;
+        border: none;
+     }
+  }
