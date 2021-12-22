@@ -28,11 +28,7 @@ form{
     margin-right: auto;
     text-align: center;
 }
-button{
-    width:5rem;
-    height: 3;
 
-}
 #video{
     text-align: center;
 }
@@ -96,4 +92,34 @@ footer{
 }
 iframe{
     margin-top: 5rem;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5rem;
+}
+.column {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    height: 300px;
+    border: 1px solid #e25429;
+}
+h3{
+    padding:10px;
+    background-color: #e9c4b9;
+    margin-top: 0;
+}
+p{
+    margin:10px;
+    padding-left: 20px;
+}
+.select-btn{
+   margin-top: 3rem;
+   cursor: pointer;
+   height: 2.3rem;
+   font-size: 1.1rem;
+   width: 6rem;
 }
